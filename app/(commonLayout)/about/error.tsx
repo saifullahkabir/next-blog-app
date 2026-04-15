@@ -14,7 +14,7 @@ export default function AboutError({
     console.error(error);
   }, [error]);
   return (
-    <div>
+    <div className="container mx-auto my-auto">
       <h1>Something went wrong! Please try again later</h1>
       <button onClick={() => reset()}>Retry</button>
     </div>
